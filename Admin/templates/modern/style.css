@@ -1,0 +1,179 @@
+BODY
+{ 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color:#EEEEEE;
+	background-image:url(img/leftbg.gif);
+}
+BODY.blank
+{
+	color: #000000;
+	background-image:url();
+	background-color:#FFFFFF;
+	font-family:Arial;
+	font-size: 9px;
+}
+BODY.left
+{
+	background-color:#FFFFFF;
+	background-image:url(img/bg2.gif);
+	margin:0px;
+}
+BODY.top
+{
+	background-image:url();
+	background-color:#FFFFFF;
+}
+TEXTAREA 
+{
+	  font-family: Arial;
+}
+A:visited
+{
+	text-decoration:none;
+	color:#000000;
+}
+A:active
+{
+	text-decoration:none;
+	color:#000000;
+}
+A:focus
+{
+	text-decoration:none;
+	color:#000000;
+}
+A:link
+{
+	text-decoration:none;
+	color:#000000;
+}
+A:hover
+{
+	text-decoration:none;
+	color:#000000;
+}
+A
+{
+	text-decoration:none;
+	color:#000000;
+}
+
+TABLE.noBorder
+{
+	background-color:#FFFFFF;
+	border-style:solid;
+	border-collapse:collapse;
+	border-width:0pt;
+	font-size: 10pt;
+	
+}
+TABLE.left
+{
+	margin-left:0px;
+	border-style:solid;
+	border-collapse:collapse;
+	border-width:0px;
+	font-size: 10pt;
+	
+}
+TABLE.left TH
+{
+	background-image:url(img/th.gif);
+	text-align:left;
+	color:#FFFFFF;
+	padding-left:10px;
+}
+TABLE.left TD
+{
+	padding-left:10px;
+}
+P.left
+{
+	margin:10px;
+	margin-right:10px;
+	margin-right:10px;
+}
+TABLE.noBorder TH
+{
+	border-style:solid;
+	border-collapse:collapse;
+	border-width: 0pt;
+	background-image:url(img/th.gif);
+	text-align:left;
+	color:#FFFFFF;
+}
+TABLE.noBorder TH A
+{
+	color:#FFFFFF !important;
+}
+TABLE.Normal
+{
+	background-color:#FFFFFF;
+	border-collapse:collapse;
+	font-size : 8pt;
+}
+TABLE.Normal TD
+{
+	border-color:#BBBBBB;
+	border-style:solid;
+	border-width:1pt;
+	padding-left:3px;
+	padding-right:3px;
+}
+TABLE.Normal TH
+{
+	border-style:none;
+	border-collapse:collapse;
+	padding-left:3px;
+	padding-right:3px;
+	font-size : 10pt;
+	background-image:url(img/th.gif);
+	color:#FFFFFF;
+}
+TH
+{ 
+	font-weight:bold;
+}
+TD
+{
+	border-style:solid;
+	border-width: 0pt;
+}
+TR
+{
+	border-style:solid;
+	border-width: 0pt;
+}
+TR.bgDark TD
+{
+	background-color:#F3F3FF;
+}
+H1
+{
+	font-size : 14pt;
+	font-weight:bold;
+}
+H2
+{
+	font-size : 14pt;
+}
+H3
+{
+	font-size : 10pt;
+	font-weight:bold;
+}
+H4
+{
+	font-size : 12pt;
+}
+H5
+{
+	font-size : 10pt;
+}
+CODE
+{
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}

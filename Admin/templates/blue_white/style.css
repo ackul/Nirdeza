@@ -1,0 +1,174 @@
+BODY
+{ 
+  font-family:Arial;
+  font-size: 10pt;
+  background-image: url(./img/Oben.jpg);
+  background-repeat:repeat-x;
+  background-attachment:fixed;
+  scrollbar-base-color:#76C8FF;
+  scrollbar-3dlight-color:#ffffff;
+  scrollbar-arrow-color:#d7efff;
+  scrollbar-darkshadow-color:#ffffff;
+  scrollbar-face-color:#76C8FF;
+  scrollbar-highlight-color:#B3E0ff;
+  scrollbar-shadow-color:#B3E0ff;
+  scrollbar-track-color:#d7efff;
+}
+BODY.blank
+{ 
+  background-color:#FFFFFF;
+  background-image: none;
+  font-size:9px;
+}
+BODY.top
+{ 
+  background-color:#FFFFFF;
+  background-image: url(./img/top.jpg);
+}
+BODY.menu
+{ 
+  background-color:#76C8FF;
+  background-image: url();
+  color:#FFFFFF;
+}
+TEXTAREA {
+  scrollbar-base-color:#76C8FF;
+  scrollbar-3dlight-color:#ffffff;
+  scrollbar-arrow-color:#d7efff;
+  scrollbar-darkshadow-color:#ffffff;
+  scrollbar-face-color:#76C8FF;
+  scrollbar-highlight-color:#B3E0ff;
+  scrollbar-shadow-color:#B3E0ff;
+  scrollbar-track-color:#d7efff;
+  }
+A:visited
+{
+text-decoration:none;
+color:#000000;
+}
+A:active
+{
+text-decoration:none;
+color:#000000;
+}
+A:focus
+{
+text-decoration:none;
+color:#000000;
+}
+A:link
+{
+text-decoration:none;
+color:#000000;
+}
+A:hover
+{
+text-decoration:none;
+color:#000000;
+}
+A
+{
+text-decoration:none;
+color:#000000;
+}
+TABLE.Normal
+{
+background-color:#76C8FF;
+border-collapse:collapse;
+border-style:solid;
+border-color:#FFFFFF;
+border-width: 1pt;
+font-size : 10pt;
+}
+TABLE.noBorder
+{
+background-color:#76C8FF;
+border-style:solid;
+border-color:#FFFFFF;
+border-width: 0pt;
+font-size : 10pt;
+}
+TABLE.noBorder TH
+{
+	text-align:left;
+	border-width: 0pt;
+	border-collapse:collapse;
+	border-style:solid;
+	border-color:#FFFFFF;
+}
+TABLE.Normal TD
+{
+border-style:solid;
+border-width: 1pt;
+}
+TABLE.Normal TH
+{
+border-style:solid;
+border-width: 1pt;
+}
+TH
+{ 
+font-weight:bold;
+}
+TD
+{
+border-style:solid;
+border-width: 0pt;
+}
+TR
+{
+border-style:solid;
+border-width: 0pt;
+}
+BODY.left
+{
+	margin:0px;
+}
+TABLE.left
+{
+	margin:0px;
+	border-style:none;
+	border-collapse:collapse;
+	font-size: 10pt;
+}
+TABLE.left TH
+{
+	text-align:left;
+	padding-left:10px;
+}
+TABLE.left TD
+{
+	padding-left:10px;
+}
+P.left
+{
+	margin:10px;
+}
+
+H1
+{
+font-size : 14pt;
+font-family:Arial;
+font-weight:bold;
+}
+H2
+{
+font-size : 14pt;
+font-family:Arial;
+}
+H3
+{
+font-size : 12pt;
+font-family:Arial;
+font-weight:bold;
+}
+H4
+{
+font-size : 12pt;
+font-family:Arial;
+}
+H5
+{
+font-size : 10pt;
+font-family:Arial;
+}

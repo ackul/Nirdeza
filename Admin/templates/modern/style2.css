@@ -1,0 +1,45 @@
+BODY
+{ 
+  color:#FFFFFF;
+  background-image:url(img/leftbg.gif);
+  font-family:Arial;
+}
+A:visited
+{
+text-decoration:none;
+  color:#FFFFFF;
+}
+A:active
+{
+text-decoration:none;
+  color:#FFFFFF;
+}
+A:focus
+{
+text-decoration:none;
+  color:#FFFFFF;
+}
+A:link
+{
+text-decoration:none;
+  color:#FFFFFF;
+}
+A:hover
+{
+text-decoration:none;
+  color:#FFFFFF;
+}
+A
+{
+text-decoration:none;
+  color:#FFFFFF;
+}
+TABLE
+{
+	background-image:url(./img/menu.jpg);
+	border-collapse:collapse;
+	border-style:solid;
+	border-color:#FFFFFF;
+	border-width: 1pt;
+	font-size : 12pt;
+}
