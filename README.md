@@ -1,7 +1,7 @@
 # Nirdeza
 =======
 
-![alt tag](https://raw.github.com/achinkulshrestha/The-Web-Panel/master/The-Web-Panel/images/3.PNG)
+![alt tag](https://raw.github.com/achinkulshrestha/Nirdeza/master/images/login.PNG)
 
 The emergence of route planning software like Google Maps, Via Michelin, Bing Maps and Directions, Yahoo! Maps and others, opened new vistas to the world of travelling. The magnanimous sphere of knowledge in this field started to shrink by a substantial amount. But as the technology started to pace with an impetuous speed, the requirements of a common user posed new challenges.
 Imagine planning a trip to an unfamiliar city with the directions provided by the above mentioned software as your only data. But do you think the information will be sufficient enough? Think Again!!Think about having the advices of those who live in the city at your disposal. Once you have the route, you think is reasonable, you can ask to see what others have to say about that route. The advices of the native people meeting your requirements will help you chose the right options available. 
@@ -44,14 +44,14 @@ Moreover they can add information about known places to help the community. Some
 We want also give the possibility to promote “good” users as moderator, so they can control advices and help the administrator to keep the website clean.
 
 ## Use Case Diagram
+![alt tag](https://raw.github.com/achinkulshrestha/Nirdeza/master/images/useCase.png)
 
 ## Functional Requirements
 Functional requirements capture the intended behavior of the system. This behavior may be expressed as services, tasks or functions the system is required to perform. In Nirdeza functional requirements can be divided in groups:
-*	Main application core
-*	Database
-*	Manage application	
-*	Web application
-Colons can be used to align columns.
+* Main application core
+* Database
+* Manage application	
+* Web application
 
 ### Main application core
 Description | Source
@@ -94,9 +94,26 @@ A simple user cannot access the administration area |	Security
 The system should be able to manage big amount of users and advices |	Scalability
 
 ## Context Diagram
+![alt tag](https://raw.github.com/achinkulshrestha/Nirdeza/master/images/context.png)
 
 ## Data Flow Diagrams
+### Level 1 DFD
+![alt tag](https://raw.github.com/achinkulshrestha/Nirdeza/master/images/level1dfd.png)
+
+### Generic User Level 2 DFD
+![alt tag](https://raw.github.com/achinkulshrestha/Nirdeza/master/images/level2dfd.png)
+
+### Registered User Level 2 DFD
+![alt tag](https://raw.github.com/achinkulshrestha/Nirdeza/master/images/registred%20usr%20level%202dfd.png)
+
+### Administrator Level 2 DFD
+![alt tag](https://raw.github.com/achinkulshrestha/Nirdeza/master/images/admini%20level2%20dfd.png)
+
+### Prepare Map Level 2 DFD
+![alt tag](https://raw.github.com/achinkulshrestha/Nirdeza/master/images/prepare%20map%20level%202dfd.png)
 
 ## Sequence Diagrams
+![alt tag](https://raw.github.com/achinkulshrestha/Nirdeza/master/images/sequence-diag.png)
 
 ## Entity Relationship Diagram
+![alt tag](https://raw.github.com/achinkulshrestha/Nirdeza/master/images/EI.png)
